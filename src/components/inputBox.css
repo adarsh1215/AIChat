@@ -1,0 +1,38 @@
+.inputBox {
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.emptyStack {
+
+    transform: translateY(40vh);
+}
+
+#inputForm {
+
+    width: 60%;
+    height: 50px;
+}
+
+#searchBox {
+
+    border: 2px solid rgb(231, 231, 231);
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    border-radius: 1.6em;
+    font-size: 1.5em;
+    transition: .5s;
+}
+
+#searchBox:focus {
+
+    transform: scale(1.1, 1.1);
+    /* border: 1px solid rgb(234, 234, 234); */
+}

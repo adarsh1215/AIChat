@@ -1,0 +1,15 @@
+#messageBox {
+
+    padding: 10px;
+    border-radius: .5em;
+}
+
+.user {
+
+    background-color: rgb(157, 149, 149);
+}
+
+.ai {
+
+    background-color: whitesmoke;
+}

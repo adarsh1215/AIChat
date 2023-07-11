@@ -1,0 +1,50 @@
+.themeToggleBtn {
+
+    all: unset;
+    position: fixed;
+    right: 20px;
+    top:   10px;
+    width: 80px;
+    height: 40px;
+    border-radius: 1.5em;
+    display: flex;
+    align-items: center;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.light {
+
+    background-color: #f1f2f6;
+    transition: .5s;
+}
+
+.dark {
+
+    background-color: #57606f;
+    transition: .5s;
+}
+
+.light::before {
+
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(163, 221, 252);
+    transition: .5s;
+}
+
+.dark::before {
+
+    content: " ";
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(47, 38, 54);
+    transform: translateX(45px);
+    transition: .5s;
+}
+

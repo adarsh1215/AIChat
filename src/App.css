@@ -1,1 +1,48 @@
+.box {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: .6s;
+}
+
+.box-light {
+
+    background-color: rgb(225, 176, 255);
+}
+
+.box-dark {
+
+    background-color: #2f3542;
+}
+
+.logo {
+
+    margin-top: 10px;
+    transition: .6s;
+}
+
+.logo:hover {
+    
+    animation: rotate 3s infinite;
+    animation-timing-function: linear;
+}
+
+.logoTransform {
+    transform: translateX(50vw);
+    transform: translateY(40vh);
+    transition: 1s;
+}
+
+.loading {
+
+    animation: rotate 3s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate {
+
+    100% { transform: rotate(360deg); }
+}
 
